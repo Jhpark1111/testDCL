@@ -150,6 +150,9 @@ screen.addComponent(
         myVideoTexture.playing = !myVideoTexture.playing
     })
 )
+screen.getComponent(Transform).scale.set(5, 5, 5)
+
+
 engine.addEntity(screen)
 
 // #5

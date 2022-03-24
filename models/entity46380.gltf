@@ -1,0 +1,166 @@
+{
+	"asset": {
+		"generator": "Unity 2020.3.31f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 600,
+			"max": [ 0.2653579, 0.3863201, 0.2653582 ],
+			"min": [ -0.2653579, -0.3863201, -0.2653582 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 7200,
+			"componentType": 5126,
+			"count": 600,
+			"max": [ 0.9659259, 1, 0.9659258 ],
+			"min": [ -0.9659259, -1, -0.9659259 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 600,
+			"max": [ 0.7608705, 0.9288374 ],
+			"min": [ 0.2406169, 0.7431929 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 600,
+			"max": [ 0.7071756, 1, 0.9659339, 1 ],
+			"min": [ -0.2588516, -1, -0.9659485, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 1140,
+			"max": [ 599 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 31080,
+			"uri": "entity46380.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 2280,
+			"target": 34963,
+			"byteOffset": 28800
+		},
+		{
+			"buffer": 0,
+			"byteLength": 4800,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 14400,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 4800
+		},
+		{
+			"buffer": 0,
+			"byteLength": 9600,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 19200
+		}
+	],
+	"images": [
+		{
+			"uri": "Assets\Low Poly Western Saloon\Components\Textures/Props Texture.jpg"
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorTexture" : {
+					"index" : 0,
+					"texCoord" : 0
+				},
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "Props Material"
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_barrel_2_22426barrel_2",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				1
+			]
+		},
+		{
+			"name": "node_barrel_2",
+			"mesh": 0,
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
+		}
+	],
+	"samplers": [
+		{
+			"magFilter": 9729,
+			"minFilter": 9985,
+			"wrapS": 10497,
+			"wrapT": 10497
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0,
+	"textures": [
+		{
+			"sampler": 0,
+			"source": 0
+		}
+	]
+}
